@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Static Website</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background: #007bff; color: white; padding: 20px; text-align: center; }
+        nav { display: flex; justify-content: center; background: #333; }
+        nav a { color: white; padding: 14px 20px; text-decoration: none; }
+        nav a:hover { background: #575757; }
+        section { padding: 20px; }
+        .services { display: flex; justify-content: space-around; }
+        .card { border: 1px solid #ddd; padding: 20px; width: 30%; text-align: center; }
+        footer { background: #333; color: white; padding: 10px; text-align: center; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Enhanced Website</h1>
+        <p>Explore the new features we've added!</p>
+    </header>
+    
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    
+    <section id="home">
+        <h2>About Us</h2>
+        <p>This website is hosted on AWS S3 and showcases static web hosting capabilities.</p>
+    </section>
+    
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="card">
+                <h3>Web Hosting</h3>
+                <p>Fast and reliable hosting solutions.</p>
+            </div>
+            <div class="card">
+                <h3>Design</h3>
+                <p>Beautiful and responsive web designs.</p>
+            </div>
+            <div class="card">
+                <h3>Consulting</h3>
+                <p>Expert advice for your digital transformation.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="5" required></textarea><br><br>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>© 2025 My Enhanced Website | <a href="#">Privacy Policy</a></p>
+    </footer>
+</body>
+</html>
+
